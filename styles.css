@@ -688,11 +688,9 @@ h3 {
 }
 
 .dropbtn {
-    border: 2px solid black;
-    color: black;
+    border: none;
     padding: 5px;
     width: 60px;
-    font-size: 16px;
     background: none;
     cursor: pointer;
 }
@@ -728,8 +726,8 @@ h3 {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {
-    border: 2px solid yellow;
-    color: yellow;
+    /*border: 2px solid yellow;*/
+    /*color: yellow;*/
 }
 
 .container-languages{
