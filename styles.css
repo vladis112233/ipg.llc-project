@@ -375,11 +375,18 @@ h3 {
     background: #FFFFFF;
     padding-top: 50px;
     padding-bottom: 50px;
+    gap: 1rem;
 }
 
 .box{
     width: 320px;
     height: 400px;
+    overflow: hidden;
+}
+
+.box1{
+    max-width: 1000px;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -401,6 +408,18 @@ h3 {
 }
 
 .photo-way:hover{
+    transform: scale(1.1);
+    transform-origin: center;
+}
+
+.photo-way1{
+    /*max-width: 1000px;*/
+    width: 100%;
+    filter: brightness(0.7);
+    transition: transform 1s ease;
+}
+
+.photo-way1:hover{
     transform: scale(1.1);
     transform-origin: center;
 }
