@@ -359,6 +359,7 @@ h3 {
     margin-top: 50px;
     margin-bottom: 50px;
     line-height: 1;
+    text-align: center;
 }
 
 .img-routes {
@@ -774,13 +775,47 @@ h3 {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {
-    /*border: 2px solid yellow;*/
-    /*color: yellow;*/
-}
 
 .container-languages{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-grants{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.box-grants1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.number{
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #1e4870;
+}
+
+.text-grant{
+    width: 60%;
+}
+
+.name-grant{
+    font-weight: 800;
+    font-size: 1.2rem;
 }
