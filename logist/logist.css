@@ -245,7 +245,7 @@
     width: 20%;
     display: flex;
     justify-content: center;
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
 .description{
@@ -325,4 +325,22 @@
     display: flex;
     justify-content: center;
     padding: 5px;
+}
+
+.format{
+    width: 80%;
+    text-align: center;
+}
+
+.format1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.format2{
+    width: 80%;
+}
+
+.disable{
+    cursor: not-allowed;
 }
