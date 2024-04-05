@@ -135,7 +135,7 @@
 }
 
 .unido{
-    max-width: 600px;
+    max-width: 170px;
     width: 100%;
 }
 
@@ -343,4 +343,10 @@
 
 .disable{
     cursor: not-allowed;
+}
+
+.box-unido{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
