@@ -135,7 +135,12 @@
 }
 
 .unido{
-    max-width: 170px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.unido1{
+    max-width: 200px;
     width: 100%;
 }
 
@@ -349,4 +354,24 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+    gap: 5rem;
+}
+
+@media (max-width: 600px) {
+    .box-unido{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .unido{
+        max-width: 170px;
+        width: 100%;
+    }
+
+    .unido1{
+        max-width: 170px;
+        width: 100%;
+    }
 }
