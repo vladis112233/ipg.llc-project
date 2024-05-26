@@ -819,3 +819,43 @@ h3 {
     font-weight: 800;
     font-size: 1.2rem;
 }
+
+.link-news{
+    color: black;
+}
+
+.link-news :hover {
+    color: green;
+}
+
+.news{
+    text-align: center;
+}
+
+.article-container{
+    max-width: 800px;
+}
+
+.article-text{
+    padding: 0 10px;
+}
+
+.general-photo{
+    max-width: 800px;
+}
+
+.photo-news{
+    max-width: 800px;
+}
+
+.article-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .general-photo {
+        width: 400px;
+    }
+}
