@@ -150,6 +150,18 @@ body{
     }
 }
 
+.link1{
+    display: none;
+}
+
+@media (max-width: 471px) {
+    .link1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
 h3 {
     font-size: 2.25rem;
 }
@@ -676,6 +688,7 @@ h3 {
     .text{
         font-size: 12px;
     }
+
 }
 
 .vision{
@@ -858,4 +871,24 @@ h3 {
     .general-photo {
         width: 400px;
     }
+}
+
+.container-news-seminar{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+@media (max-width: 470px) {
+    .container-news-seminar {
+        display: none;
+    }
+}
+
+.link-of-container-news-seminar{
+    color: #111111;
+}
+
+.link-of-container-news-seminar:hover{
+    filter: opacity(40%);
 }
